@@ -36,7 +36,7 @@
 ## Usage
 
 - Run metro:
-  ### <a>`npm start`</a>
+  ### <strong>`npm start`</strong>
 - Run android:
   ### `npm run android`
 - Build project:
