@@ -59,10 +59,10 @@ buck-out/
 /ios/Pods/
 
 
-# Visual studio
-.vscode
-.vs
-.fttemplates
+# # Visual studio
+# .vscode
+# .vs
+# .fttemplates
 
 
 
