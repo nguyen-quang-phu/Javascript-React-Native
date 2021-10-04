@@ -11,7 +11,7 @@
 - [Usage](#usage)
 
 ## Setup
-- `git clone https://github.com/nguyen-quang-phu/javascript-react-native.git `
+- ```git clone https://github.com/nguyen-quang-phu/javascript-react-native.git ```
 ## Technologies Used
 
 - Reactjs, react-native
