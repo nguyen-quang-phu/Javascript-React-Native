@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "streetsidesoftware.code-spell-checker",
+    "naumovs.color-highlight",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "huuums.vscode-fast-folder-structure",
+    "eamodio.gitlens",
+    "harvey1998.harvey",
+    "vincaslt.highlight-matching-tag",
+    "oderwat.indent-rainbow",
+    "pascalsenn.keyboard-quickfix",
+    "pkief.material-icon-theme",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "shan.code-settings-sync",
+    "stylelint.vscode-stylelint",
+    "chakrounanas.turbo-console-log",
+    "vscodevim.vim",
+    "visualstudioexptteam.vscodeintellicode"
+  ]
+}

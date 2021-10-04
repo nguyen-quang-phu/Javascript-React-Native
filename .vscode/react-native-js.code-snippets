@@ -1,0 +1,90 @@
+{
+  // HTML
+  "Create Full Tag": {
+    "prefix": "cft",
+    "scope": "javascriptreact",
+    "body": ["<$1 $2>$3</$1>"],
+    "description": "Create Full Tag"
+  },
+  "Create Self Tag": {
+    "prefix": "cst",
+    "scope": "javascriptreact",
+    "body": ["<$1 />"],
+    "description": "Create Self Tag"
+  },
+  //hook
+  "Use State": {
+    "prefix": ["us", "useState"],
+    "scope": "javascriptreact",
+    "body": ["const [${1:value}, set${1/(.*)/${1:/capitalize}/}] = useState($2);"],
+    "description": "Use State"
+  },
+  "Use Translation": {
+    "prefix": ["ut", "useTranslation"],
+    "scope": "javascriptreact",
+    "body": ["const [t] = useTranslation();"],
+    "description": "Use Translation"
+  },
+  "Use Effect": {
+    "prefix": ["ue", "useEffect"],
+    "scope": "javascriptreact",
+    "body": ["useEffect(() => {", "\t$1", "},[$2])"],
+    "description": "Use Translation"
+  },
+  "Use Callback": {
+    "prefix": ["ucb", "useCallback"],
+    "scope": "javascriptreact",
+    "body": ["const $1 = useCallback(() => {", "\t$2", "}, [$3]);"],
+    "description": "Use Translation"
+  },
+  "React Lazy": {
+    "prefix": ["rlz", "reactLazy"],
+    "scope": "javascriptreact",
+    "body": ["const $1 = React.lazy(() => import('$2'));"],
+    "description": "Use Translation"
+  },
+  // Utils
+  "Comment Structure Component": {
+    "prefix": ["csc", "CommentStructureComponent"],
+    "scope": "javascriptreact",
+    "body": ["// Hook states", "", "// Hook effects", "", "// Constants", "", "// Action handlers", "", "// Renderers"],
+    "description": "Comment Structure Component"
+  },
+  "Get Query": {
+    "prefix": ["gq", "getQuery"],
+    "scope": "javascriptreact",
+    "body": ["const location = useLocation();", "const queries = queryString.parse(location.search);"],
+    "description": "Get Query"
+  },
+  // refactor
+  "Wrap Use Callback": {
+    "prefix": ["wrapUseCallBack"],
+    "scope": "javascriptreact",
+    "body": ["${TM_SELECTED_TEXT/(^[a-z A-Z]+=)( )([\\w\\W]+)(};)/$1 useCallback($3}/}, [$1]);"],
+    "description": "Wrap Use Callback"
+  },
+  "Wrap React Memo": {
+    "prefix": ["wrapReactMemo"],
+    "scope": "javascriptreact",
+    "body": ["${TM_SELECTED_TEXT/(.*)/React.memo($1)/}"],
+    "description": "Wrap Use Callback"
+  },
+  "Wrap React Lazy": {
+    "prefix": ["wrapReactLazy"],
+    "scope": "javascriptreact",
+    "body": [
+      "${TM_SELECTED_TEXT/(import )([\\w]+)( from )(')([@a-zA-Z\\/]+)(')/const $2 = React.lazy(() => import('$5'))/g}"
+    ],
+    "description": "Wrap React Lazy"
+  },
+  // utils
+  "Add Style": {
+    "prefix": ["addstyle"],
+    "scope": "javascriptreact",
+    "body": [
+      "style={styles.$1}"
+    ],
+    "description": "Add Style"
+  }
+
+}
