@@ -28,7 +28,10 @@
 ## Setup
 
 - Install node module:
-  ### `npm install`
+  ### 
+  ```
+  npm install
+  ```
 
 ## Usage
 
