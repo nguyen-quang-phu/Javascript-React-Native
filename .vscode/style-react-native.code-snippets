@@ -1,0 +1,132 @@
+{
+  // components
+  "View": {
+    "prefix": ["sview", "views"],
+    "scope": "javascriptreact",
+    "body": ["<View style={styles.$1}>$2</View>"],
+    "description": "View"
+  },
+  "Text": {
+    "prefix": ["stext", "texts"],
+    "scope": "javascriptreact",
+    "body": ["<Text style={styles.$1}>$2</Text>"],
+    "description": "Text"
+  },
+  // postion
+  "Position Absolute": {
+    "prefix": "posa",
+    "scope": "javascriptreact",
+    "body": ["position: 'absolute',"],
+    "description": "Position Absolute"
+  },
+  "Position Relative": {
+    "prefix": "posr",
+    "scope": "javascriptreact",
+    "body": ["position: 'relative',"],
+    "description": "Position Relative"
+  },
+  // display
+  "Display Flex": {
+    "prefix": "df",
+    "scope": "javascriptreact",
+    "body": ["display: 'flex',"],
+    "description": "Display Flex"
+  },
+  "Align Items Center": {
+    "prefix": "aic",
+    "scope": "javascriptreact",
+    "body": ["alignItems: 'center',"],
+    "description": "Align Items Center"
+  },
+  "Justify Content Center": {
+    "prefix": "jcc",
+    "scope": "javascriptreact",
+    "body": ["justifyContent: 'center',"],
+    "description": "Justify Content Center"
+  },
+  "Justify Content Space Between": {
+    "prefix": "jcsb",
+    "scope": "javascriptreact",
+    "body": ["justifyContent: 'space-between',"],
+    "description": "Justify Content Space Between"
+  },
+  "Flex Direction Row": {
+    "prefix": "fxdr",
+    "scope": "javascriptreact",
+    "body": ["flexDirection: 'row',"],
+    "description": "Flex Direction Row"
+  },
+  //background
+  "Background Color": {
+    "prefix": "bgc",
+    "scope": "javascriptreact",
+    "body": ["backgroundColor: $1,"],
+    "description": "Background Color"
+  },
+  "Background Color Transparent": {
+    "prefix": "bgct",
+    "scope": "javascriptreact",
+    "body": ["backgroundColor: 'transparent',"],
+    "description": "Background Color"
+  },
+  //border
+  "Border Radius": {
+    "prefix": "bdrs",
+    "scope": "javascriptreact",
+    "body": ["borderRadius: $1,"],
+    "description": "Border Radius"
+  },
+  // size
+  "Width 100%": {
+    "prefix": "w100p",
+    "scope": "javascriptreact",
+    "body": ["width: '100%',"],
+    "description": "Width 100%"
+  },
+  //margin
+  "Margin Top": {
+    "prefix": "mt",
+    "scope": "javascriptreact",
+    "body": ["marginTop: $1,"],
+    "description": "Margin Top"
+  },
+  "Margin Left": {
+    "prefix": "ml",
+    "scope": "javascriptreact",
+    "body": ["marginLeft: $1,"],
+    "description": "Margin Top"
+  },
+  //padding
+  "Padding Left": {
+    "prefix": "pl",
+    "scope": "javascriptreact",
+    "body": ["paddingLeft: $1,"],
+    "description": "Padding Left"
+  },
+  "Padding Horizontal": {
+    "prefix": "ph",
+    "scope": "javascriptreact",
+    "body": ["paddingHorizontal: $1,"],
+    "description": "Padding Horizontal"
+  },
+
+  // font
+  "Color": {
+    "prefix": "c",
+    "scope": "javascriptreact",
+    "body": ["color: $1,"],
+    "description": "Color"
+  },
+  "Font Size": {
+    "prefix": "fz",
+    "scope": "javascriptreact",
+    "body": ["fontSize: $1,"],
+    "description": "Font Size"
+  },
+  "Line Height": {
+    "prefix": "lh",
+    "scope": "javascriptreact",
+    "body": ["lineHeight: $1,"],
+    "description": "Line Height"
+  }
+}

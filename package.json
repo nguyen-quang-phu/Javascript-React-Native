@@ -20,7 +20,6 @@
   "lint-staged": {
     "*.+(js|jsx)": [
       "eslint --fix",
-      "stylelint --fix",
       "prettier --write --ignore-unknown"
     ],
     "*.+(json|css|scss|md)": [
